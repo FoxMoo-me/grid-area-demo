@@ -73,6 +73,11 @@ aside {
 footer {
     grid-area: footer;
 }
+
+a {
+    color: var(--yellow);
+    font-size: 1.1em;
+}
 /* cards */
 .card {
     display: grid;
@@ -90,6 +95,7 @@ footer {
     box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
     padding: 1.5em;
     grid-column-gap: 1.5em;
+    margin-bottom: 1.5em;
 }
 .card-img {
     grid-area: img;
@@ -147,3 +153,5 @@ footer {
   text-transform: uppercase;
   letter-spacing: 0.3em;
 }
+
+/* if i want the desing to be responsive i shall use media querries */
